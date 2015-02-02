@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head lang="pt-br">
+    <meta charset="UTF-8">
+    <script src="IMC.js"></script>
+    <link rel="stylesheet" type="text/css" href="Estilo.css">
+    <title></title>
+</head>
+<body>
+<img src="%5B002882%5D.png" alt="logo" title="Imagem do app" align="center"/>
+
+<form  id="formulario">
+    <fieldset>
+        <table>
+        <legend>Cálculo do IMC</legend>
+            <tr>
+            <td><label for="kilos">Kilos:</label></td>
+            <td><input type="number" name="kilos" size="3" maxlength="3" max="999"/></td>
+            </tr>
+            <tr>
+            <td><label for="metros">Metros:</label></td>
+            <td><input type="number" name="metros"size="1" maxlength="3" max="3"/></td>
+            </tr>
+            <tr>
+            <td><label for="centimetros">Cm:</label></td>
+            <td><input type="number" name="centimetros" size="2" maxlength="3" max="99"/></td>
+            </tr>
+            <tr>
+            <td><label for="imc">IMC:</label>
+            <td><input type="number" name="imc" disabled="disabled"/>
+            </tr>
+            <tr>
+                <td><label for="situacao">Situação:</label>
+                <td><input type="text" name="situacao" disabled="disabled" size="20"/>
+            </tr>
+        </table>
+        <a href="#" class="botao" onclick="calcularIMC();">Calcular</a>
+    </fieldset>
+</form>
+
+<h3>Desenvolvedor: Wilvison R. Cardoso</h3>
+
+</body>
+</html>
